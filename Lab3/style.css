@@ -1,0 +1,82 @@
+* {
+    font-family: Geneva, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    padding-top: 5px;
+}
+
+.navbar {
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+
+    a {
+        padding: 5px;
+    }
+}
+
+.hero {
+    height: 75%;
+    background-image: url("pictures/hero-image.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* .description {
+    text-align: center;
+    font-style: italic;
+    padding: 50px;
+} */
+
+.row-pictures {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-items: center;
+}
+
+.column-pictures {
+    text-align: center;
+}
+
+.content-3 {
+    text-align: center;
+    background-color: #F3E2DB;
+    padding: 50px;
+}
+
+.footer {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    /* position: absolute; */
+    padding: 15px;
+}
+
+.footer-text {
+    color: white;
+    padding: 10;
+    /* position: relative;
+    left: 300px; */
+}
+
+.social-media-links {
+    /* position: relative;
+    top: 200px;
+    vertical-align: left; */
+}
+
+/* https: //css-tricks.com/snippets/css/a-guide-to-flexbox/ */
