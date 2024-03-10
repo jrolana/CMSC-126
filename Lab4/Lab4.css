@@ -1,0 +1,302 @@
+/* 
+LABORATORY EXERCISE #4
+Your task is to edit this CSS file and design the different web pages. You are NOT allowed to modify/change the HTML files.
+Be creative with your designs. Points will be given based on originality, creativity and overall amazingness.
+*/
+
+/* dimension: top right bottom left */
+/* dimension: topbottom rightleft */
+
+/* || Typography */
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* || General Styles */
+
+a {
+    color: black;
+
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+button {
+    height: 3rem;
+
+    border: 1px solid black;
+    background: white;
+    color: black;
+
+    display: block;
+    padding: 1rem;
+    margin: 1rem auto;
+
+    font-family: "Josefin Sans", sans-serif;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.5%;
+}
+
+ol {
+    border-style: solid none;
+    border-width: 1px;
+
+    padding: 2rem;
+}
+
+table {
+    width: 2000px;
+    border-spacing: 25px;
+
+    display: block;
+    overflow-x: auto;
+
+    td {
+        width: 300px;
+        height: 300px;
+
+        border: 1px black solid;
+        padding: 5px;
+
+    }
+
+    td.label {
+        width: 50px;
+        height: 50px;
+
+        text-align: center;
+    }
+
+}
+
+form {
+    width: 15rem;
+
+    display: block;
+    padding: 1rem;
+    margin: 2rem auto;
+
+    border: 1px solid black;
+    background: white;
+    color: black;
+
+    text-align: left;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+
+    input {
+        width: 100%;
+        height: 1.05rem;
+
+        border: 1px solid black;
+        background: white;
+        color: black;
+
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    select {
+        height: 1.5rem;
+
+        display: block;
+        margin: 0rem auto;
+
+        font-family: "Josefin Sans", sans-serif;
+    }
+}
+
+input[type="submit"] {
+    width: 50%;
+    height: 3rem;
+
+    border: 1px solid black;
+    background: white;
+    color: black;
+
+    display: block;
+    margin: 1rem auto;
+
+    font-family: "Josefin Sans", sans-serif;
+}
+
+input[type="submit"]:hover {
+    background: black;
+    color: white;
+}
+
+
+/* || Sitewide */
+header {
+    font-family: "Playfair Display", serif;
+    text-align: left;
+
+    h1 {
+        margin: 1rem;
+    }
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid none;
+
+
+    a {
+        padding: 1rem;
+        border-width: 1px;
+        border-color: black;
+        border-left-style: solid;
+    }
+}
+
+.imgBanner {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#title {
+    font-family: "Playfair Display", serif;
+
+}
+
+#about {
+    margin-top: 5rem;
+
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+
+/* || Content */
+
+.coffee {
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    margin: 2rem;
+
+    img {
+        max-width: 100%;
+        height: 316px;
+        object-fit: cover;
+
+        display: block;
+        margin: auto;
+    }
+
+    .definition {
+        text-align: justify;
+    }
+}
+
+
+/* || Home Page */
+
+#welcome {
+    margin-left: 1rem;
+
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+}
+
+/* || Order Page */
+
+#tagline {
+    margin: 2rem 0rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.coffee h2 {
+    margin: 0rem;
+}
+
+td.coffeeTitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    width: 0px;
+    height: 0px;
+
+    border: none;
+}
+
+label[for="drink"] {
+    display: block;
+    padding-top: 1rem;
+    margin: 0rem auto 0rem auto;
+
+    text-align: center;
+}
+
+
+/* || About Page */
+
+.imgBanner[title="Logo"] {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.coffee .definition {
+    text-align: center;
+}
+
+.coffeeVideo {
+    height: 200px;
+
+    border: 1px black solid;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+img.teamMember {
+    object-fit: cover;
+}
+
+img.coffee {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
